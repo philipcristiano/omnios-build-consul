@@ -12,7 +12,7 @@ GROUPNAME=consul
 
 clone:
 	curl ${DOWNLOAD_SRC} -o ${LOCAL_SRC_TAR}
-	tar -xf ${LOCAL_SRC_TAR}
+	tar -zxf ${LOCAL_SRC_TAR}
 	ls
 
 build:
