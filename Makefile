@@ -11,7 +11,7 @@ USERNAME=consul
 GROUPNAME=consul
 
 clone:
-	curl ${DOWNLOAD_SRC} -o ${LOCAL_SRC_TAR}
+	curl -L ${DOWNLOAD_SRC} -o ${LOCAL_SRC_TAR}
 	tar -zxf ${LOCAL_SRC_TAR}
 	ls
 
