@@ -9,6 +9,7 @@ LOCAL_SRC=consul-${VERSION}
 
 USERNAME=consul
 GROUPNAME=consul
+BUILD_OUTPUT_DIR=go
 
 clone:
 	curl -L ${DOWNLOAD_SRC} -o ${LOCAL_SRC_TAR}
@@ -24,7 +25,7 @@ build:
 package:
 	@echo do packagey things!
 	mkdir -p ${IPS_BUILD_DIR}/opt/ ${IPS_TMP_DIR}
-	cp -r ${PREFIX} ${IPS_BUILD_DIR}/opt
+	cp -r ${BUILD_OUTPUT_DIR} ${IPS_BUILD_DIR}/opt
 
 	# SMF
 	mkdir -p ${IPS_BUILD_DIR}/lib/svc/manifest/database/
