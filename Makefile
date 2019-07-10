@@ -20,7 +20,7 @@ build:
 	@ echo 'Print env before building'
 	@ bash -c 'env'
 	cd ${LOCAL_SRC}; make -j 8 tools
-	cd ${LOCAL_SRC}; make -j 8 bin
+	cd ${LOCAL_SRC}; make -j 8 dev-build
 
 package:
 	@echo do packagey things!
