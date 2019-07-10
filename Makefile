@@ -4,7 +4,7 @@ SAFE_VERSION=105
 PROJECT_NAME=${PROJECT}-${SAFE_VERSION}
 PROJECT_VERSION=${VERSION}
 DOWNLOAD_SRC=https://github.com/hashicorp/consul/archive/v${VERSION}.tar.gz
-LOCAL_SRC_TAR=src.tar.gz2
+LOCAL_SRC_TAR=src.tar.gz
 LOCAL_SRC=consul-${VERSION}
 
 USERNAME=consul
