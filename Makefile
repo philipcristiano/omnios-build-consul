@@ -25,7 +25,7 @@ build:
 package:
 	@echo do packagey things!
 	mkdir -p ${IPS_BUILD_DIR}/opt/ ${IPS_TMP_DIR}
-	cp -r ${BUILD_OUTPUT_DIR} ${IPS_BUILD_DIR}/opt
+	cp -r ${BUILD_OUTPUT_DIR} ${IPS_BUILD_DIR}/opt/consul
 
 	# SMF
 	mkdir -p ${IPS_BUILD_DIR}/lib/svc/manifest/database/
