@@ -35,6 +35,8 @@ package:
 	# cp smf.xml ${IPS_BUILD_DIR}/lib/svc/manifest/database/${PROJECT_NAME}.xml
 	# cp method ${IPS_BUILD_DIR}/lib/svc/method/${PROJECT_NAME}
 
+	cp -r default.hcl ${IPS_BUILD_DIR}/etc/consul.d/default.hcl
+
 publish: ips-package
 ifndef PKGSRVR
 	echo "Need to define PKGSRVR, something like http://localhost:10000"
