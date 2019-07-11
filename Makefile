@@ -29,6 +29,7 @@ package:
 	# SMF
 	mkdir -p ${IPS_BUILD_DIR}/lib/svc/manifest/database/
 	mkdir -p ${IPS_BUILD_DIR}/lib/svc/method/
+	mkdir -p ${IPS_BUILD_DIR}/etc/consul
 	# cp smf.xml ${IPS_BUILD_DIR}/lib/svc/manifest/database/${PROJECT_NAME}.xml
 	# cp method ${IPS_BUILD_DIR}/lib/svc/method/${PROJECT_NAME}
 
