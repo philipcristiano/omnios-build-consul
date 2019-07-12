@@ -76,7 +76,7 @@
         	<method_context>
                 	<method_credential user='consul' group='consul' />
                   <method_environment>
-                      <envvar name="HOME" value="/export/home/consul"/>
+                      <envvar name="HOME" value="/var/consul"/>
                   </method_environment>
         	</method_context>
 
