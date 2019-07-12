@@ -57,7 +57,8 @@
         <exec_method
                 type='method'
                 name='start'
-                exec='/opt/consul/bin/consul agent --config-dir=/etc/consul.d' />
+                exec='/opt/consul/bin/consul agent --config-dir=/etc/consul.d'
+                timeout_seconds='60' />
 
         <exec_method
                 type='method'
